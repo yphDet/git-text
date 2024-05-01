@@ -22,3 +22,7 @@ git merge + 分支名  分支合并：将需要合并的分支与当前分支他
 
 git rm --cached 文件名 删除暂存区的文件，但是工作区任然还有该文件
 
+【远程仓库】
+创建远程库别名  git remote add 别名 链接（http/ssh）
+查看远程库别名  git remote -v
+将本地库文件推送到远程库  git push 别名 分支
